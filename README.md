@@ -34,7 +34,7 @@ it for some other project later).
 
 The background art was done by Ansimuz [ansimuz.itch.io](https://ansimuz.itch.io/). His work is awesome.
 
-The octopus icon in Title UI made by [Freepik](http://www.freepik.com/) from (www.flaticon.com)[https://www.flaticon.com/].
+The octopus icon in Title UI made by [Freepik](http://www.freepik.com/) from [www.flaticon.com](https://www.flaticon.com/).
 
 Uses Babel and Browserify to convert ES6 JavaScript to
 ES5 JavaScript. Uses Google Closure Compiler to minify.
