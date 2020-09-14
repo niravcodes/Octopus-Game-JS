@@ -3,7 +3,7 @@
 echo "Rebuilding Game"
 rm -rf dist
 mkdir -p dist/js
-cp index.html dist/index.html
+cp index_dist.html dist/index.html
 cp favicon.ico dist/favicon.ico
 
 echo "Copying Assets"
@@ -21,5 +21,6 @@ rm -rf dist/js
 
 echo "Minifying"
 npx google-closure-compiler --js=dist/game.js --js_output_file=dist/gameM.js --jscomp_off=checkVars
+rm dist/game.js
 
 echo "Done! (ignore the warnings)"
